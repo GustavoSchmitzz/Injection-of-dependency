@@ -10,8 +10,8 @@ public class Main {
         NotificationSender sms = new SMSNotification();
         NotificationSender email = new EmailNotification();
 
-        NotificationService sender1 = new NotificationService(sms);
-        NotificationService sender2 = new NotificationService(email);
+        NotificationService sender1 = new NotificationService(email);
+        NotificationService sender2 = new NotificationService(sms);
 
         sender1.processarEnvio("Belo pau");
         sender2.processarEnvio("Nunca vi uma espada como a sua, posso pega-lá?");
