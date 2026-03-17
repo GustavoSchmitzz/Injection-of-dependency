@@ -13,7 +13,7 @@ public class Main {
         NotificationService sender1 = new NotificationService(email);
         NotificationService sender2 = new NotificationService(sms);
 
-        sender1.processarEnvio("Belo pau");
-        sender2.processarEnvio("Nunca vi uma espada como a sua, posso pega-lá?");
+        sender1.processarEnvio("teste 1");
+        sender2.processarEnvio("teste 2");
     }
 }
